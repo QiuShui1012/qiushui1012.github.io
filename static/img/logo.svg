@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.9.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="_图层_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 320 320" style="enable-background:new 0 0 320 320;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#00D6E1;}
+	.st1{fill:#01F3FF;}
+	.st2{fill:#01BDC6;}
+</style>
+<g>
+	<rect x="20" y="20" class="st0" width="280" height="280"/>
+	<polygon class="st1" points="220,240 100,240 100,260 240,260 240,160 120,160 120,100 240,100 240,80 200,80 200,40 60,40 60,220 
+		220,220 	"/>
+	<polygon class="st2" points="180,80 180,60 80,60 80,200 180,200 180,180 100,180 100,80 	"/>
+	<rect x="200" y="180" class="st2" width="20" height="20"/>
+	<rect x="200" y="60" class="st2" width="20" height="20"/>
+	<rect x="100" y="180" class="st0" width="20" height="20"/>
+	<rect x="80" y="220" class="st2" width="140" height="20"/>
+	<polygon class="st2" points="260,180 240,180 240,260 120,260 120,280 260,280 	"/>
+	<polygon class="st1" points="20,20 20,320 0,320 0,0 320,0 320,20 	"/>
+	<polygon class="st2" points="300,20 300,300 20,300 20,320 320,320 320,20 	"/>
+	<polygon class="st2" points="260,100 120,100 120,160 140,160 140,120 260,120 	"/>
+</g>
+</svg>

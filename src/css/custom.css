@@ -1,0 +1,103 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #3d6d7b;
+  --ifm-color-primary-dark: #37616e;
+  --ifm-color-primary-darker: #305660;
+  --ifm-color-primary-darkest: #2a4a53;
+  --ifm-color-primary-light: #447988;
+  --ifm-color-primary-lighter: #4a8495;
+  --ifm-color-primary-lightest: #5190a2;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  font-family: 'MiSans', sans-serif;
+  font-size: large;
+  h1,h2,h3 {
+    font-family: 'MiSans', sans-serif;
+  }
+  code {
+    font-family: 'consolas', 'MiSans', sans-serif;
+  }
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #67a2b3;
+  --ifm-color-primary-dark: #5190a2;
+  --ifm-color-primary-darker: #4a8495;
+  --ifm-color-primary-darkest: #447988;
+  --ifm-color-primary-light: #8ebac7;
+  --ifm-color-primary-lighter: #9bc2cd;
+  --ifm-color-primary-lightest: #a8cad4;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.docs-doc-page {
+  font-family: 'MiSans', sans-serif;
+}
+
+@font-face {
+  font-family: 'MiSans';
+  font-weight: 100;
+  src: url('@site/static/font/MiSans/MiSans-Thin.ttf');
+}
+@font-face {
+  font-family: 'MiSans';
+  font-weight: 200;
+  src: url('@site/static/font/MiSans/MiSans-ExtraLight.ttf');
+}
+@font-face {
+  font-family: 'MiSans';
+  font-weight: 300;
+  src: url('@site/static/font/MiSans/MiSans-Light.ttf');
+}
+@font-face {
+  font-family: 'MiSans';
+  font-weight: 400;
+  src: url('@site/static/font/MiSans/MiSans-Normal.ttf');
+}
+@font-face {
+  font-family: 'MiSans';
+  font-weight: 450;
+  src: url('@site/static/font/MiSans/MiSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'MiSans';
+  font-weight: normal;
+  src: url('@site/static/font/MiSans/MiSans-Normal.ttf');
+}
+@font-face {
+  font-family: 'MiSans';
+  font-weight: 500;
+  src: url('@site/static/font/MiSans/MiSans-Medium.ttf');
+}
+@font-face {
+  font-family: 'MiSans';
+  font-weight: 600;
+  src: url('@site/static/font/MiSans/MiSans-Demibold.ttf');
+}
+@font-face {
+  font-family: 'MiSans';
+  font-weight: 700;
+  src: url('@site/static/font/MiSans/MiSans-Semibold.ttf');
+}
+@font-face {
+  font-family: 'MiSans';
+  font-weight: bold;
+  src: url('@site/static/font/MiSans/MiSans-Semibold.ttf');
+}
+@font-face {
+  font-family: 'MiSans';
+  font-weight: 800;
+  src: url('@site/static/font/MiSans/MiSans-Bold.ttf');
+}
+@font-face {
+  font-family: 'MiSans';
+  font-weight: 900;
+  src: url('@site/static/font/MiSans/MiSans-Heavy.ttf');
+}

@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "秋水的个人网站",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "秋水的Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Documents": {
+    "message": "文档",
+    "description": "Navbar item with label Documents"
+  },
+  "item.label.Mods": {
+    "message": "模组",
+    "description": "Navbar item with label Mods"
+  }
+}

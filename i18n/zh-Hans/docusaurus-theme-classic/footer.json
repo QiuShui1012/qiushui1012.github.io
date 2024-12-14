@@ -1,0 +1,42 @@
+{
+  "link.title.Docs": {
+    "message": "文档",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Social Accounts": {
+    "message": "个人账号",
+    "description": "The title of the footer links column with title=Social Accounts in the footer"
+  },
+  "link.item.label.Documents": {
+    "message": "文档",
+    "description": "The label of footer link with label=Documents linking to /docs/intro"
+  },
+  "link.item.label.Mods": {
+    "message": "模组",
+    "description": "The label of footer link with label=Mods linking to /docs/mods"
+  },
+  "link.item.label.Bilibili (China)": {
+    "message": "哔哩哔哩",
+    "description": "The label of footer link with label=Bilibili (China) linking to https://space.bilibili.com/484142219"
+  },
+  "link.item.label.CurseForge (For 1012)": {
+    "message": "CurseForge（1012）",
+    "description": "The label of footer link with label=CurseForge (For 1012) linking to https://www.curseforge.com/members/qiushui1012"
+  },
+  "link.item.label.CurseForge (For 0875)": {
+    "message": "CurseForge（0875）",
+    "description": "The label of footer link with label=CurseForge (For 0875) linking to https://www.curseforge.com/members/qiushui0875"
+  },
+  "link.item.label.Modrinth": {
+    "message": "Modrinth",
+    "description": "The label of footer link with label=Modrinth linking to https://modrinth.com/user/QiuShui1012"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/QiuShui1012"
+  },
+  "copyright": {
+    "message": "Copyright © 2024 QiuShui1012. Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}
