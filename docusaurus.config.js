@@ -5,14 +5,15 @@ const config = {
 title: 'QiuShui\'s Website',
 tagline: 'A Minecraft modder.',
 favicon: 'img/favicon.ico',
+trailingSlash: true,
 
-url: 'https://qiushui1012.github.io/',
+url: 'https://qiushui1012.github.io',
 baseUrl: '/',
 
 organizationName: 'QiuShui1012',
 projectName: 'qiushui1012.github.io',
 
-onBrokenLinks: 'throw',
+onBrokenLinks: 'ignore',
 onBrokenMarkdownLinks: 'warn',
 
 i18n: {
@@ -66,7 +67,17 @@ themeConfig:
           label: 'Mods',
         },
         {
+          type: 'search',
+          position: 'right',
+        },
+        {
           type: 'localeDropdown',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/QiuShui1012/',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
           position: 'right',
         },
       ],
