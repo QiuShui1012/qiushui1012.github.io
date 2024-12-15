@@ -67,7 +67,17 @@ themeConfig:
           label: 'Mods',
         },
         {
+          type: 'search',
+          position: 'right',
+        },
+        {
           type: 'localeDropdown',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/QiuShui1012/',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
           position: 'right',
         },
       ],
