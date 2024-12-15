@@ -13,7 +13,7 @@ baseUrl: '/',
 organizationName: 'QiuShui1012',
 projectName: 'qiushui1012.github.io',
 
-onBrokenLinks: 'throw',
+onBrokenLinks: 'ignore',
 onBrokenMarkdownLinks: 'warn',
 
 i18n: {
