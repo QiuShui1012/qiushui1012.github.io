@@ -7,7 +7,6 @@ tagline: 'A Minecraft modder.',
 favicon: 'img/favicon.ico',
 trailingSlash: true,
 
-url: 'https://qiushui1012.github.io/',
 url: 'https://qiushui1012.github.io',
 baseUrl: '/',
 
