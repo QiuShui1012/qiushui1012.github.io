@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Qualia Carpet Addition - 规则
-上次更新于 `1.0.5.2` 版本。
+上次更新于 `1.1.0` 版本。
 
 ## 信标可提升玩家交互范围 (beaconIncreaseInteractionRange)
 允许信标当玩家在范围内时为其提升交互范围。  
@@ -22,6 +22,15 @@ sidebar_position: 1
 **默认值：** `0.3`  
 **建议值：** `0.3`  
 **类别：** `QCA`，`FEATURE`，`EXPERIMENTAL`  
+
+## 骨粉可复制小型花 (boneMealDoubleSmallFlowers)
+允许玩家使用骨粉复制小型花。
+
+**存在版本：** 从 `1.1.0` 到 `现版本`  
+**类型：** `boolean`  
+**默认值：** `false`  
+**建议值：** `false`，`true`  
+**类别：** `QCA`，`SURVIVAL`，`FEATURE`，`experimental`  
 
 ## 破坏大型垂滴叶保留茎 (breakDripleafKeepStem)
 更改大型垂滴叶茎在顶部被破坏时的行为。  
@@ -51,25 +60,26 @@ sidebar_position: 1
 **建议值：** `ops`，`0`，`1`，`2`，`3`，`4`，`false`，`true`  
 **类别：** `QCA`，`COMMAND`  
 
-## 合成器配方可限制 (crafterRecipeCanRestrict)
-允许玩家通过在合成器顶部放置（荧光）物品展示框来限制配方。  
-此时合成器仅支持结果为（荧光）物品展示框内物品的配方。  
-注意此处的“顶部”指有九宫格的面。  
+## 合成器配方限制 (crafterLimitation)
+允许玩家通过在合成器顶部放置（荧光）物品展示框或重命名合成器来限制配方。  
+此时合成器仅支持结果为（荧光）物品展示框内物品或符合自定义名称中的谓词的物品的配方。  
+谓词语法可前往[文档](qca-limitations#qualia-carpet-addition---limitations)查看。  
+注意：此处的“顶部”指有九宫格的面。  
   
 **存在版本：** 从 `1.0.2` 到 `现版本`  
-**类型：** `boolean`  
-**默认值：** `false`  
-**建议值：** `false`，`true`  
+**类型：** `String`  
+**默认值：** `disabled`  
+**建议值：** `disabled`，`itemFrame`，`customName`，`itemFrame,customName`  
 **类别：** `QCA`，`SURVIVAL`，`FEATURE`，`EXPERIMENTAL`  
 
-## 更简易的漏斗限类 (easierHopperRestriction)
-允许玩家通过重命名漏斗使其仅吸取某类物品。  
-支持长ID（“namespace:path”为物品，“#namespace:path”为标签）以及短ID（前文提到的“path”和“#path”部分，仅支持命名空间为minecraft）。  
+## 简易漏斗限类 (easyHopperLimitation)
+允许玩家通过在顶部放置（荧光）物品展示框或重命名漏斗使其仅吸取某类物品。  
+谓词语法可前往[文档](qca-limitations#qualia-carpet-addition---limitations)查看。  
   
 **存在版本：** 从 `1.0.1` 到 `现版本`  
-**类型：** `boolean`  
-**默认值：** `false`  
-**建议值：** `false`，`true`  
+**类型：** `String`  
+**默认值：** `disabled`  
+**建议值：** `disabled`，`itemFrame`，`customName`，`itemFrame,customName`  
 **类别：** `QCA`，`SURVIVAL`，`FEATURE`，`EXPERIMENTAL`  
 
 ## 物品可穿过铁链 (itemsCanPassThroughChains)

@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Qualia Carpet Addition - Rules
-Last updated version is `1.0.5.2`.
+Last updated version is `1.1.0`.
 
 ## beaconIncreaseInteractionRange
 Allows beacon to increase players' interaction range when the players are in the range of the beacon.  
@@ -22,6 +22,15 @@ Sets the value for beacon when calculating the increased interaction range if th
 **Default value:** `0.3`  
 **Suggests options:** `0.3`  
 **Categories:** `QCA`, `FEATURE`, `EXPERIMENTAL`  
+
+## boneMealDoubleSmallFlowers
+Allow players to use bone meal to double the small flowers.
+
+**Active version:** From `1.1.0` to `Current`  
+**Type:** `boolean`  
+**Default value:** `false`  
+**Suggests options:** `false`, `true`  
+**Categories:** `QCA`, `SURVIVAL`, `FEATURE`, `EXPERIMENTAL` 
 
 ## breakDripleafKeepStem
 Changes the behaviour of the stems when top break.  
@@ -51,25 +60,26 @@ The /tp command, but only can teleport an entity to a position.
 **Suggests options:** `ops`, `0`, `1`, `2`, `3`, `4`, `false`, `true`  
 **Categories:** `QCA`, `COMMAND`  
 
-## crafterRecipeCanRestrict
+## crafterLimitation
 Allow players to limit recipes by placing (glow) item frame at the top of the crafter.  
 At this time, the crafter only support recipes for items within the (glow) item frame.  
+Limitations' syntax can be found in the [Document](qca-limitations#qualia-carpet-addition---limitations).  
 Note that the "top" side means the side has nine-square grid.  
   
 **Active version:** From `1.0.2` to `Current`  
-**Type:** `boolean`  
-**Default value:** `false`  
-**Suggests options:** `false`, `true`  
+**Type:** `String`  
+**Default value:** `dsabled`  
+**Suggests options:** `disabled`，`itemFrame`，`customName`，`itemFrame,customName`  
 **Categories:** `QCA`, `SURVIVAL`, `FEATURE`, `EXPERIMENTAL`  
 
-## easierHopperRestriction
-Allow players to rename the hopper to only extract certain types of items.  
-Support long ID ("namespace:path" for items or "#namespace:path" for tags) and short ID ("path" or "#path" mentioned earlier, only supports namespace minecraft).  
+## easyHopperLimitation
+Allow players to limit only certain types of items by placing (glow) item frames at the top or renaming it.  
+Limitations' syntax can be found in the [Document](qca-limitations#qualia-carpet-addition---limitations).  
   
 **Active version:** From `1.0.1` to `Current`  
-**Type:** `boolean`  
-**Default value:** `false`  
-**Suggests options:** `false`, `true`  
+**Type:** `String`  
+**Default value:** `disabled`  
+**Suggests options:** `disabled`，`itemFrame`，`customName`，`itemFrame,customName`  
 **Categories:** `QCA`, `SURVIVAL`, `FEATURE`, `EXPERIMENTAL`  
 
 ## itemsCanPassThroughChains

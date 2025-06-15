@@ -106,12 +106,8 @@ themeConfig:
               href: 'https://space.bilibili.com/484142219',
             },
             {
-              label: 'CurseForge (For 1012)',
+              label: 'CurseForge',
               href: 'https://www.curseforge.com/members/qiushui1012',
-            },
-            {
-              label: 'CurseForge (For 0875)',
-              href: 'https://www.curseforge.com/members/qiushui0875',
             },
             {
               label: 'Modrinth',
