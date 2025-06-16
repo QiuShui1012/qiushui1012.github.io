@@ -19,13 +19,9 @@
     "message": "哔哩哔哩",
     "description": "The label of footer link with label=Bilibili (China) linking to https://space.bilibili.com/484142219"
   },
-  "link.item.label.CurseForge (For 1012)": {
-    "message": "CurseForge（1012）",
-    "description": "The label of footer link with label=CurseForge (For 1012) linking to https://www.curseforge.com/members/qiushui1012"
-  },
-  "link.item.label.CurseForge (For 0875)": {
-    "message": "CurseForge（0875）",
-    "description": "The label of footer link with label=CurseForge (For 0875) linking to https://www.curseforge.com/members/qiushui0875"
+  "link.item.label.CurseForge": {
+    "message": "CurseForge",
+    "description": "The label of footer link with label=CurseForge linking to https://www.curseforge.com/members/qiushui1012"
   },
   "link.item.label.Modrinth": {
     "message": "Modrinth",
