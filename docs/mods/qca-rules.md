@@ -61,9 +61,9 @@ The /tp command, but only can teleport an entity to a position.
 **Categories:** `QCA`, `COMMAND`  
 
 ## crafterLimitation
-Allow players to limit recipes by placing (glow) item frame at the top of the crafter.  
-At this time, the crafter only support recipes for items within the (glow) item frame.  
-Limitations' syntax can be found in the [Document](qca-limitations#qualia-carpet-addition---limitations).  
+Allow players to limit recipes by placing (glow) item frame at the top or renaming it to valid Limitations.  
+At this time, the crafter only supports recipes that result in items within the (glow) item frame or items that match the Limitation in the custom name.  
+Limitation syntax can be found in the [Document](./qca-limitations.md#syntax).  
 Note that the "top" side means the side has nine-square grid.  
   
 **Active version:** From `1.0.2` to `Current`  
@@ -73,8 +73,8 @@ Note that the "top" side means the side has nine-square grid.
 **Categories:** `QCA`, `SURVIVAL`, `FEATURE`, `EXPERIMENTAL`  
 
 ## easyHopperLimitation
-Allow players to limit only certain types of items by placing (glow) item frames at the top or renaming it.  
-Limitations' syntax can be found in the [Document](qca-limitations#qualia-carpet-addition---limitations).  
+Allow players to limit only certain types of items by placing (glow) item frames at the top or renaming it to valid Limitations.  
+Limitation syntax can be found in the [Document](./qca-limitations.md#syntax).  
   
 **Active version:** From `1.0.1` to `Current`  
 **Type:** `String`  
