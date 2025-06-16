@@ -61,9 +61,9 @@ sidebar_position: 1
 **类别：** `QCA`，`COMMAND`  
 
 ## 合成器配方限制 (crafterLimitation)
-允许玩家通过在合成器顶部放置（荧光）物品展示框或重命名合成器来限制配方。  
+允许玩家通过在合成器顶部放置（荧光）物品展示框或将合成器重命名为合法的限制谓词来限制配方。  
 此时合成器仅支持结果为（荧光）物品展示框内物品或符合自定义名称中的谓词的物品的配方。  
-谓词语法可前往[文档](qca-limitations#qualia-carpet-addition---limitations)查看。  
+谓词语法可前往[文档](./qca-limitations.md#syntax)查看。  
 注意：此处的“顶部”指有九宫格的面。  
   
 **存在版本：** 从 `1.0.2` 到 `现版本`  
@@ -73,8 +73,8 @@ sidebar_position: 1
 **类别：** `QCA`，`SURVIVAL`，`FEATURE`，`EXPERIMENTAL`  
 
 ## 简易漏斗限类 (easyHopperLimitation)
-允许玩家通过在顶部放置（荧光）物品展示框或重命名漏斗使其仅吸取某类物品。  
-谓词语法可前往[文档](qca-limitations#qualia-carpet-addition---limitations)查看。  
+允许玩家通过在顶部放置（荧光）物品展示框或将漏斗重命名为合法的限制谓词使其仅吸取某类物品。  
+谓词语法可前往[文档](./qca-limitations.md#syntax)查看。  
   
 **存在版本：** 从 `1.0.1` 到 `现版本`  
 **类型：** `String`  
