@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 
 # Qualia Carpet Addition - 限制谓词
-上次更新于 `1.1.0` 版本。
+上次更新于 `1.2.2` 版本。
 
 限制谓词（Limitations）是一个简单的类脚本语言，基于Java语法和Minecraft标识符/资源路径系统。
 ## 语法

@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 
 # Qualia Carpet Addition - Limitations
-Last updated version is `1.1.0`.
+Last updated version is `1.2.2`.
 
 Limitations is a simple scripting-like language, which is based on Java syntax and Minecraft Identifier/ResourceLocation system.
 ## Syntax
