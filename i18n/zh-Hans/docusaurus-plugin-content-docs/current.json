@@ -8,7 +8,7 @@
     "description": "The label for category Mods in sidebar mainDocSidebar"
   },
   "sidebar.mainDocSidebar.category.Mods.link.generated-index.description": {
-    "message": "这些是秋水制作的所有模组的文档。",
+    "message": "这些是我制作的所有模组的文档。",
     "description": "The generated-index page description for category Mods in sidebar mainDocSidebar"
   }
 }

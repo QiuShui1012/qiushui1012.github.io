@@ -15,16 +15,16 @@ You can also use [Bilibili](https://space.bilibili.com/484142219/) and [Discord 
 
 ## Mods
 
-You can directly check them under my [CurseForge 1](https://www.curseforge.com/members/qiushui1012/), [CurseForge 2](https://www.curseforge.com/members/qiushui0875/), [Modrinth](https://modrinth.com/user/QiuShui1012/) and [Github](https://github.com/QiuShui1012/) accounts.  
+You can directly check them under my [CurseForge](https://www.curseforge.com/members/qiushui1012/), [Modrinth](https://modrinth.com/user/QiuShui1012/) and [Github](https://github.com/QiuShui1012/) accounts.  
 If you want to read some docs of my mods, check the 'Mods' dropdown box on the left sidebar.
 
 ## Rhythm games
 
-Last updated this part is in `2024-12-14`.
+Last updated this part is in `2025-06-19`.
 
-- [Phigros](https://phigros.fandom.com/), my first rhythm game to play. Now my rks is 16.08.
-- [Arcaea](https://arcaea.lowiro.com/), the new dimension rhythm game. Now my ptt is 12.94.
-- [Orzmic](https://orzmic.fandom.com/), the O part of the popular 'PAO' in the Chinese rhythm game community. Now my rating is 13.477 with power 9.
+- [Phigros](https://phigros.fandom.com/) rks 16.54
+- [Arcaea](https://arcaea.lowiro.com/) ptt 13.07
+- [Orzmic](https://orzmic.fandom.com/) rating 13.588¹⁰
 
 These are the games I spend the most time playing. I am also playing other rhythm games, list on below:  
-Rizline, Milthm, Simple, RYCEAM, Project Sekai, CHUNITHM, maimai, etc.
+Rizline, Milthm, Simple, Project Sekai, CHUNITHM, maimai, etc.
