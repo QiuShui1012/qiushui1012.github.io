@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Qualia Carpet Addition - Rules
-Last updated version is `1.1.0`.
+Last updated version is `1.2.2`.
 
 ## beaconIncreaseInteractionRange
 Allows beacon to increase players' interaction range when the players are in the range of the beacon.  
@@ -45,7 +45,7 @@ Now, when the top dripleaf break, the top stem will become dripleaf and keep oth
 ## commandTpPlayer
 The /tp command, but only can teleport a player to another player.  
   
-**Active version:** From `1.0.3` to `Current`  
+**Active version:** From `1.0.3` to `1.1.0`  
 **Type:** `String`  
 **Default value:** `false`  
 **Suggests options:** `ops`, `0`, `1`, `2`, `3`, `4`, `false`, `true`  
@@ -54,7 +54,7 @@ The /tp command, but only can teleport a player to another player.
 ## commandTpPos
 The /tp command, but only can teleport an entity to a position.  
   
-**Active version:** From `1.0.0` to `Current`  
+**Active version:** From `1.0.0` to `1.1.0`  
 **Type:** `String`  
 **Default value:** `false`  
 **Suggests options:** `ops`, `0`, `1`, `2`, `3`, `4`, `false`, `true`  

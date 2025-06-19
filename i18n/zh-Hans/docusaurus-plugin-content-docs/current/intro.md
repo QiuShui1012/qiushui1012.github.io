@@ -14,16 +14,16 @@ sidebar_position: 1
 
 ## 模组
 
-你可以直接在我的[CurseForge 1](https://www.curseforge.com/members/qiushui1012/)、[CurseForge 2](https://www.curseforge.com/members/qiushui0875/)、[Modrinth](https://modrinth.com/user/QiuShui1012/)和[Github](https://github.com/QiuShui1012/)账号下查看。  
+你可以直接在我的[CurseForge](https://www.curseforge.com/members/qiushui1012/)、[Modrinth](https://modrinth.com/user/QiuShui1012/)和[Github](https://github.com/QiuShui1012/)账号下查看。  
 如果你想阅读我的模组的文档，可以查看左侧边栏上的“模组”下拉框。
 
 ## 音游
 
-此部分上次更新于`2024-12-14`。
+此部分上次更新于`2025-06-19`。
 
-- [Phigros](https://phigros.fandom.com/)，我第一个游玩的音游。现在我的rks是16.08。
-- [Arcaea](https://arcaea.lowiro.com/)，三维立体节奏游戏。现在我的ptt是12.94。
-- [Orzmic](https://orzmic.fandom.com/)，著名的“PAO”中的O部分。现在我的rating是13.477以及9次方。
+- [Phigros](https://phigros.fandom.com/) rks 16.54
+- [Arcaea](https://arcaea.lowiro.com/) ptt 13.07
+- [Orzmic](https://orzmic.fandom.com/) rating 13.588¹⁰
 
-这些是我花最多时间玩的音游。我还玩一些其它的音游，列在下面：  
+这些是我比较常玩的音游。我还玩一些其它的音游：  
 律动轨迹Rizline、Milthm、Simple、RYCEAM、Project Sekai、中二节奏CHUNITHM、舞萌DX、等等。

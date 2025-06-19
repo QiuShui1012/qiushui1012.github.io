@@ -311,7 +311,7 @@
     "description": "The title of the tag list page"
   },
   "homepage.feature.qca.desc": {
-    "message": "一个{carpetLink}的附属模组。添加了一些能使我的世界更加懒狗的规则。",
+    "message": "一个{carpetLink}的附属模组。添加了一些能使Minecraft更加懒狗的规则。",
     "description": "The desc of feature qca."
   },
   "homepage.feature.qca.desc.carpetLink": {
@@ -327,7 +327,7 @@
     "description": "The title of homepage."
   },
   "homepage.subtitle": {
-    "message": "一个我的世界的模组制作者。",
+    "message": "一个Minecraft模组制作者。",
     "description": "The subtitle of homepage."
   }
 }

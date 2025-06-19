@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Qualia Carpet Addition - 规则
-上次更新于 `1.1.0` 版本。
+上次更新于 `1.2.2` 版本。
 
 ## 信标可提升玩家交互范围 (beaconIncreaseInteractionRange)
 允许信标当玩家在范围内时为其提升交互范围。  
@@ -45,7 +45,7 @@ sidebar_position: 1
 ## /tpplayer 命令 (commandTpPlayer)
 /tp 命令，但是只能将一个玩家传送到另一个玩家。  
   
-**存在版本：** 从 `1.0.3` 到 `现版本`  
+**存在版本：** 从 `1.0.3` 到 `1.1.0`  
 **类型：** `String`  
 **默认值：** `false`  
 **建议值：** `ops`，`0`，`1`，`2`，`3`，`4`，`false`，`true`  
@@ -54,7 +54,7 @@ sidebar_position: 1
 ## /tppos 命令 (commandTpPos)
 /tp 命令，但是只能将一个实体传送到一个坐标。  
   
-**存在版本：** 从 `1.0.0` 到 `现版本`  
+**存在版本：** 从 `1.0.0` 到 `1.1.0`  
 **类型：** `String`  
 **默认值：** `false`  
 **建议值：** `ops`，`0`，`1`，`2`，`3`，`4`，`false`，`true`  
@@ -63,7 +63,7 @@ sidebar_position: 1
 ## 合成器配方限制 (crafterLimitation)
 允许玩家通过在合成器顶部放置（荧光）物品展示框或将合成器重命名为合法的限制谓词来限制配方。  
 此时合成器仅支持结果为（荧光）物品展示框内物品或符合自定义名称中的谓词的物品的配方。  
-谓词语法可前往[文档](./qca-limitations.md#syntax)查看。  
+谓词语法可前往[文档](./qca-limitations.md#语法)查看。  
 注意：此处的“顶部”指有九宫格的面。  
   
 **存在版本：** 从 `1.0.2` 到 `现版本`  
@@ -74,7 +74,7 @@ sidebar_position: 1
 
 ## 简易漏斗限类 (easyHopperLimitation)
 允许玩家通过在顶部放置（荧光）物品展示框或将漏斗重命名为合法的限制谓词使其仅吸取某类物品。  
-谓词语法可前往[文档](./qca-limitations.md#syntax)查看。  
+谓词语法可前往[文档](./qca-limitations.md#语法)查看。  
   
 **存在版本：** 从 `1.0.1` 到 `现版本`  
 **类型：** `String`  
