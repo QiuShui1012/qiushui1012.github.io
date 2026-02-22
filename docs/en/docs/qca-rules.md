@@ -1,148 +1,149 @@
 ---
-title: Qualia Carpet Addition - 规则
-description: Qualia Carpet Addition 的所有规则
+title: Qualia Carpet Addition - Rules
+description: All rules in Qualia Carpet Addition
 ---
 
-# Qualia Carpet Addition - 规则
-上次更新于 `2.0.0` 版本。
+# Qualia Carpet Addition - Rules
+Last updated version is `2.0.0`.
 
-## 信标可提升玩家交互范围 (beaconIncreaseInteractionRange)
-允许信标为范围内的玩家提升交互范围。
+## beaconIncreaseInteractionRange
+Allows beacon to increase players' interaction range when the players are in the range of the beacon.
 
-**可用版本：** 从 `1.0.4` 至 `1.2.3`  
-**类型：** `boolean`  
-**默认值：** `false`  
-**建议值：** `false`，`true`  
-**类别：** `QCA`，`FEATURE`，`EXPERIMENTAL`
+**Available version:** From `1.0.4` to `1.2.3`  
+**Type:** `boolean`  
+**Default value:** `false`  
+**Suggests options:** `false`, `true`  
+**Categories:** `QCA`, `FEATURE`, `EXPERIMENTAL`
 
-## 信标可提升玩家交互范围值 (beaconIncreaseInteractionRangeValue)
-当规则[“信标可提升玩家交互范围”](#信标可提升玩家交互范围-beaconincreaseinteractionrange)不为“false”时，设置信标计算增加的交互范围时使用的值。
+## beaconIncreaseInteractionRangeValue
+Sets the value for beacon when calculating the increased interaction range if the rule [beaconIncreaseInteractionRange](#beaconincreaseinteractionrange) is not "false".
 
-**可用版本：** 从 `1.0.0` 至 `1.2.3`  
-**类型：** `double`  
-**默认值：** `0.3`  
-**建议值：** `0.3`  
-**类别：** `QCA`，`FEATURE`，`EXPERIMENTAL`
+**Available version:** From `1.0.0` to `1.2.3`  
+**Type:** `double`  
+**Default value:** `0.3`  
+**Suggests options:** `0.3`  
+**Categories:** `QCA`, `FEATURE`, `EXPERIMENTAL`
 
-## 骨粉可复制小型花 (boneMealDoubleSmallFlowers)
-允许玩家使用骨粉复制小型花。
+## boneMealDoubleSmallFlowers
+Allow players to use bone meal to double the small flowers.
 
-**可用版本：** 从 `1.1.0` 至 `现版本`  
-**类型：** `boolean`  
-**默认值：** `false`  
-**建议值：** `false`，`true`  
-**类别：** `QCA`，`SURVIVAL`，`FEATURE`，`experimental`
+**Available version:** From `1.1.0` to `Current`  
+**Type:** `boolean`  
+**Default value:** `false`  
+**Suggests options:** `false`, `true`  
+**Categories:** `QCA`, `SURVIVAL`, `FEATURE`, `EXPERIMENTAL`
 
-## 破坏大型垂滴叶保留茎 (breakDripleafKeepStem)
-更改大型垂滴叶茎在顶部被破坏时的行为。  
-现在，当顶部的垂滴叶被破坏时，最靠上的茎会变成垂滴叶并保持其它茎不被破坏。
+## breakDripleafKeepStem
+Changes the behaviour of the stems when top break.  
+Now, when the top dripleaf break, the top stem will become dripleaf and keep other stems.
 
-**可用版本：** 从 `1.0.4` 至 `现版本`  
-**类型：** `boolean`  
-**默认值：** `false`  
-**建议值：** `false`，`true`  
-**类别：** `QCA`，`FEATURE`，`EXPERIMENTAL`
+**Available version:** From `1.0.4` to `Current`  
+**Type:** `boolean`  
+**Default value:** `false`  
+**Suggests options:** `false`, `true`  
+**Categories:** `QCA`, `FEATURE`, `EXPERIMENTAL`
 
-## /tpplayer 命令 (commandTpPlayer)
-/tp 命令，但是只能将一个玩家传送到另一个玩家。
+## commandTpPlayer
+The /tp command, but only can teleport a player to another player.
 
-**可用版本：** 从 `1.0.3` 至 `1.1.0`  
-**类型：** `String`  
-**默认值：** `false`  
-**建议值：** `ops`，`0`，`1`，`2`，`3`，`4`，`false`，`true`  
-**类别：** `QCA`，`COMMAND`
+**Available version:** From `1.0.3` to `1.1.0`  
+**Type:** `String`  
+**Default value:** `false`  
+**Suggests options:** `ops`, `0`, `1`, `2`, `3`, `4`, `false`, `true`  
+**Categories:** `QCA`, `COMMAND`
 
-## /tppos 命令 (commandTpPos)
-/tp 命令，但是只能将一个实体传送到一个坐标。
+## commandTpPos
+The /tp command, but only can teleport an entity to a position.
 
-**可用版本：** 从 `1.0.0` 至 `1.1.0`  
-**类型：** `String`  
-**默认值：** `false`  
-**建议值：** `ops`，`0`，`1`，`2`，`3`，`4`，`false`，`true`  
-**类别：** `QCA`，`COMMAND`
+**Available version:** From `1.0.0` to `1.1.0`  
+**Type:** `String`  
+**Default value:** `false`  
+**Suggests options:** `ops`, `0`, `1`, `2`, `3`, `4`, `false`, `true`  
+**Categories:** `QCA`, `COMMAND`
 
-## 合成器配方限制 (crafterLimitation)
-允许玩家通过在合成器顶部放置（荧光）物品展示框或将合成器重命名为合法的限制谓词来限制配方。  
-此时合成器仅支持结果为（荧光）物品展示框内物品或符合自定义名称中的谓词的物品的配方。  
-谓词语法可前往[文档](./qca-limitations.md#语法)查看。  
-注意：此处的“顶部”指有九宫格的面。
+## crafterLimitation
+Allow players to limit recipes by placing (glow) item frame at the top or renaming it to valid Limitations.  
+At this time, the crafter only supports recipes that result in items within the (glow) item frame or items that match the Limitation in the custom name.  
+Limitation syntax can be found in the [Document](./qca-limitations.md#syntax).  
+Note that the "top" side means the side has nine-square grid.
 
-**可用版本：** 从 `1.0.2` 至 `1.2.3`  
-**类型：** `String`  
-**默认值：** `disabled`  
-**建议值：** `disabled`，`itemFrame`，`customName`，`itemFrame,customName`  
-**类别：** `QCA`，`SURVIVAL`，`FEATURE`，`EXPERIMENTAL`
+**Available version:** From `1.0.2` to `1.2.3`  
+**Type:** `String`  
+**Default value:** `dsabled`  
+**Suggests options:** `disabled`，`itemFrame`，`customName`，`itemFrame,customName`  
+**Categories:** `QCA`, `SURVIVAL`, `FEATURE`, `EXPERIMENTAL`
 
-## 简易漏斗限类 (easyHopperLimitation)
-允许玩家通过在顶部放置（荧光）物品展示框或将漏斗重命名为合法的限制谓词使其仅吸取某类物品。  
-谓词语法可前往[文档](./qca-limitations.md#语法)查看。
+## easyHopperLimitation
+Allow players to limit only certain types of items by placing (glow) item frames at the top or renaming it to valid Limitations.  
+Limitation syntax can be found in the [Document](./qca-limitations.md#syntax).
 
-**可用版本：** 从 `1.0.1` 至 `1.2.3`  
-**类型：** `String`  
-**默认值：** `disabled`  
-**建议值：** `disabled`，`itemFrame`，`customName`，`itemFrame,customName`  
-**类别：** `QCA`，`SURVIVAL`，`FEATURE`，`EXPERIMENTAL`
+**Available version:** From `1.0.1` to `1.2.3`  
+**Type:** `String`  
+**Default value:** `disabled`  
+**Suggests options:** `disabled`，`itemFrame`，`customName`，`itemFrame,customName`  
+**Categories:** `QCA`, `SURVIVAL`, `FEATURE`, `EXPERIMENTAL`
 
-## 物品可穿过铁链 (itemsCanPassThroughChains)
-允许物品实体穿过铁链。对于其它实体，碰撞箱与关闭该规则时无差异。
+## itemsCanPassThroughChains
+Allow item entities pass through chains.  
+For other entities, there is no difference between the collision box and when the rule is closed.
 
-**可用版本：** 从 `1.0.0` 至 `现版本`  
-**类型：** `boolean`  
-**默认值：** `false`  
-**建议值：** `false`，`true`  
-**类别：** `QCA`，`FEATURE`，`EXPERIMENTAL`
+**Available version:** From `1.0.0` to `Current`  
+**Type:** `boolean`  
+**Default value:** `false`  
+**Suggests options:** `false`, `true`  
+**Categories:** `QCA`, `FEATURE`, `EXPERIMENTAL`
 
-## PVP时不会损伤盔甲 (pvpDoNotDamageEquipment)
-使盔甲在PVP时不会受伤害。
+## pvpDoNotDamageEquipment
+Make equipments not damage during PVP.
 
-**可用版本：** 从 `1.0.5` 至 `现版本`  
-**类型：** `boolean`  
-**默认值：** `false`  
-**建议值：** `false`，`true`  
-**类别：** `QCA`，`PVP`，`SURVIVAL`，`FEATURE`，`EXPERIMENTAL`
+**Available version:** From `1.0.5` to `Current`  
+**Type:** `boolean`  
+**Default value:** `false`  
+**Suggests options:** `false`, `true`  
+**Categories:** `QCA`, `PVP`, `SURVIVAL`, `FEATURE`, `EXPERIMENTAL`
 
-## PVP时不会损伤武器 (pvpDoNotDamageWeapon)
-使武器在PVP时不会受伤害。
+## pvpDoNotDamageWeapon
+Make weapon not damage during PVP.
 
-**可用版本：** 从 `1.0.5` 至 `现版本`  
-**类型：** `boolean`  
-**默认值：** `false`  
-**建议值：** `false`，`true`  
-**类别：** `QCA`，`PVP`，`SURVIVAL`，`FEATURE`，`EXPERIMENTAL`
+**Available version:** From `1.0.5` to `Current`  
+**Type:** `boolean`  
+**Default value:** `false`  
+**Suggests options:** `false`, `true`  
+**Categories:** `QCA`, `PVP`, `SURVIVAL`, `FEATURE`, `EXPERIMENTAL`
 
-## QCA Debug日志 (qcaDebugLog)
-向debug日志打印更多debug信息。
+## qcaDebugLog
+Prints more debug info in the debug log.
 
-**可用版本：** 从 `1.0.4.4` 至 `1.2.3`  
-**类型：** `boolean`  
-**默认值：** `false`  
-**建议值：** `false`，`true`  
-**类别：** `QCA`，`FEATURE`，`EXPERIMENTAL`
+**Available version:** From `1.0.4.4` to `1.2.3`  
+**Type:** `boolean`  
+**Default value:** `false`  
+**Suggests options:** `false`, `true`  
+**Categories:** `QCA`, `FEATURE`, `EXPERIMENTAL`
 
-## 累计惩罚乘数 (repairCostMultiplier)
-设置计算下个累计惩罚的乘数。
+## repairCostMultiplier
+Sets the multiplier in calculating next repair cost.
 
-**可用版本：** 从 `1.0.4` 至 `现版本`  
-**类型：** `double`  
-**默认值：** `2.0`  
-**建议值：** `2.0`  
-**类别：** `QCA`，`SURVIVAL`，`FEATURE`
+**Available version:** From `1.0.4` to `Current`  
+**Type:** `double`  
+**Default value:** `2.0`  
+**Suggests options:** `2.0`  
+**Categories:** `QCA`, `SURVIVAL`, `FEATURE`
 
-## 高植物可剪成其小型变种 (tallPlantShearToSmall)
-允许玩家将高植物剪成或与剪刀制作为它们的小型“变种”。  
-注意此处的“变种”仅为游戏内相似用途的合并，与现实中的植物无关系。
+## tallPlantShearToSmall
+Allow players to shear off tall plants or craft them with shears to create their smaller "variants."  
+Note that these "variants" are purely for in-game use and have no relation to real-life plants.
 
-**可用版本：** 从 `1.0.0` 至 `现版本`  
-**类型：** `String`  
-**默认值：** `disable`  
-**建议值：** `disable`，`enable`，`grasses`，`dripleaf`，`flowers`，`grasses,dripleaf`，`grasses,flowers`，`dripleaf,flowers`  
-**类别：** `QCA`，`SURVIVAL`，`FEATURE`，`EXPERIMENTAL`
+**Available version:** From `1.0.0` to `Current`  
+**Type:** `String`  
+**Default value:** `disable`  
+**Suggests options:** `disable`, `enable`, `grasses`, `dripleaf`, `flowers`, `grasses,dripleaf`, `grasses,flowers`, `dripleaf,flowers`  
+**Categories:** `QCA`, `SURVIVAL`, `FEATURE`, `EXPERIMENTAL`
 
-## “过于昂贵”累计惩罚等级 (tooExpensiveLevel)
-更改在铁砧中触发“过于昂贵”提示的累计惩罚等级。
+## tooExpensiveLevel
+Changes the repair cost level that can trigger the "Too Expensive!" tip in anvil.
 
-**可用版本：** 从 `1.0.0` 至 `现版本`  
-**类型：** `int`  
-**默认值：** `2.0.0` 之前为 `39` ，之后为 `40`  
-**建议值：** `-1`，`2.0.0` 之前为 `39` ，之后为 `40`  
-**类别：** `QCA`，`SURVIVAL`，`FEATURE`  
+**Available version:** From `1.0.0` to `Current`  
+**Type:** `int`  
+**Default value:** `39`  
+**Suggests options:** `-1`, `39`  
+**Categories:** `QCA`, `SURVIVAL`, `FEATURE`  

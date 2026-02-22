@@ -1,9 +1,9 @@
 ---
 layout: doc
-sidebar: 目录
+sidebar: Intro
 ---
 
-# 模组文档
+# Mod Documents
 
-此处收录了由我本人制作的大部分模组的文档。  
-可使用左侧侧边栏跳转至需要的文档。
+This contains the documents for most of the mods created by myself.   
+You can use the left sidebar to navigate to the desired document.

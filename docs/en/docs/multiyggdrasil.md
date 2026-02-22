@@ -1,50 +1,48 @@
 # MultiYggdrasil
 
-[![GitHub Release](https://img.shields.io/github/release/QiuShui1012/MultiYggdrasil.svg)](https://github.com/QiuShui1012/MultiYggdrasil/releases/)
+## Summary
 
-## 概述
+MultiYggdrasil is a Forge | Fabric | NeoForge mod.
 
-MultiYggdrasil 是一个运行于 Forge | Fabric | NeoForge 的模组。
+It allows you to set multiple Yggdrasil API sources, including the official and other external authentication servers.
 
-它允许您设置多个Yggdrasil API来源，包括正版和其它外置登录。
+Config design is inspired by [MultiLogin](https://github.com/CaaMoe/MultiLogin),
+and some codes are borrowed from [authlib-injector](https://github.com/yushijinhun/authlib-injector/) under the AGPL-3.0 license.
 
-配置设计参考了[MultiLogin](https://github.com/CaaMoe/MultiLogin)，
-部分代码来自[authlib-injector](https://github.com/yushijinhun/authlib-injector/)，遵循APGL-3.0版权。
+~~patchwork~~
 
-~~缝合怪~~
+## Deploy
 
-## 安装
+Same as other mods, there are only three steps:
+1. Download mod from [CurseForge](https://curseforge.com/minecraft/mc-mods/multiyggdrasil) | [Modrinth](https://modrinth.com/mod/multiyggdrasil/)
+2. Throw it into `/mods`
+3. Launch the server
 
-与其它大部分模组一致，仅需三步：
-1. 从 [CurseForge](https://curseforge.com/minecraft/mc-mods/multiyggdrasil) | [Modrinth](https://modrinth.com/mod/multiyggdrasil/) 下载模组
-2. 放入 `/mods` 文件夹
-3. 启动游戏
+## Configuration
 
-## 配置
-
-一个模板：
+A template:
 ```toml
-# 该配置路径位于 config/multi-yggdrasil.toml
-[SomeRandomMirror]                       # *名称，可随意设置，无影响
-type = "OFFICIAL"                        # *类型，目前支持“OFFICIAL”和“BLESSING_SKIN”
-authHost = "https://a.random.mirror"     # “OFFICIAL”类型的特定值，需求见下表
-accountsHost = "https://a.random.mirror" # “OFFICIAL”类型的特定值，需求见下表
-sessionHost = "https://a.random.mirror"  # “OFFICIAL”类型的特定值，需求见下表
-servicesHost = "https://a.random.mirror" # “OFFICIAL”类型的特定值，需求见下表
-profilesHost = "https://a.random.mirror" # “OFFICIAL”类型的特定值，需求见下表
-ordinal = 0                              # *序号，决定了该来源的使用顺序
+# This config is located at config/multi-yggdrasil.toml
+[SomeRandomMirror]                       # The name, can be set freely, has no impacts.
+type = "OFFICIAL"                        # The type, now has 2 types, "OFFICIAL" and "BLESSING_SKIN".
+authHost = "https://a.random.mirror"     # -+- The specific value of "OFFICIAL" type.
+accountsHost = "https://a.random.mirror" #  |  Requirements in below.
+sessionHost = "https://a.random.mirror"  #  |
+servicesHost = "https://a.random.mirror" #  |
+profilesHost = "https://a.random.mirror" # -+
+ordinal = 0                              # The ordinal, decided the order of use for this source
 
 [MojangOfficial]
-type = "OFFICIAL"                        # “OFFICIAL”类型可以没有Host属性值，此时会使用官方API
-ordinal = 1
+type = "OFFICIAL"                        # When using "OFFICIAL" type, there can be no host-like property,
+ordinal = 1                              # and it will use the official API.
 
 [LittleSkin]
-type = "BLESSING_SKIN"                   # ↙ *“BLESSING_SKIN”类型的特定值
-apiRoot = "https://littleskin.cn/api/yggdrasil/"  
+type = "BLESSING_SKIN"                   # ↙ The specific value of "BLESSING_SKIN" type.
+apiRoot = "https://littleskin.cn/api/yggdrasil/"
 ordinal = 2
 ```
 
-“OFFICIAL”类型的特定值的必需与否与MC版本有关，详见下表：
+The requirements of these host-like specific values for “OFFICIAL” type are depending on the MC version, see the table below:
 
 | authlib       | Minecraft      | authHost | accountsHost | sessionHost | servicesHost | profilesHost |
 |:--------------|:---------------|:--------:|:------------:|:-----------:|:------------:|:------------:|
@@ -54,8 +52,7 @@ ordinal = 2
 | 6.0.52~6.0.58 | 1.20.3~1.21.8  |    ❌     |      ❌       |      ✅      |      ✅       |      ❌       |
 | 7.0.61        | 1.21.9~1.21.11 |    ❌     |      ❌       |      ✅      |      ✅       |      ✅       |
 
-
-## 版本支持情况
+## Version Supporting
 |   Minecraft    | Forge | Fabric | NeoForge |
 |:--------------:|:-----:|:------:|:--------:|
 |    1.14.4-     |   ❌   |   ❌    |    ❌     |

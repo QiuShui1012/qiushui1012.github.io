@@ -1,6 +1,6 @@
 ---
 layout: doc
-sidebar: 目录
+sidebar: 序言
 ---
 
 # 模组文档
