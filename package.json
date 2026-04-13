@@ -11,7 +11,7 @@
     "@types/node": "^25.0.8",
     "vitepress": "2.0.0-alpha.15"
   },
-  "license": "ISC",
+  "license": "CC-BY-NC-SA 4.0",
   "dependencies": {
     "gray-matter": "^4.0.3",
     "markdown-it-container": "^4.0.0",

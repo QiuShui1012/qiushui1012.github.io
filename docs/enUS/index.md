@@ -26,7 +26,7 @@ features:
     details: A mod that can provide multiple Yggdrasil API sources.
     link: ./docs/multiyggdrasil
   - title: No Infinite Effects in HUD
-    details: A mod that can disables infinite effects display in the hud
+    details: A mod that can disable infinite effects display in the hud
     link: ./docs/nieih
 ---
 

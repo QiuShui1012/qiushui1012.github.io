@@ -27,5 +27,5 @@ If an ID does not exist or is written incorrectly, it will be discarded, but the
 2. `#minecraft:planks | #minecraft:logs | minecraft:oak_sapling`  
    Will pass Planks, Logs and Oak Saplings.
 3. `#minecraft:planks & #minecraft:logs & minecraft:oak_sapling`  
-   If `#minecraft:planks` and `#minecraft:logs` tags contain Oak Sapling, than it will pass Oak Sapling;  
+   If `#minecraft:planks` and `#minecraft:logs` tags contain Oak Sapling, then it will pass Oak Sapling;  
    otherwise it will not pass any items.

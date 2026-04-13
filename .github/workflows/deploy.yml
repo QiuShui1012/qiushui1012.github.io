@@ -1,52 +1,61 @@
-name: Deploy vue.js site to Pages
+# Sample workflow for building and deploying a VitePress site to GitHub Pages
+#
+# To get started with VitePress see: https://vitepress.vuejs.org/guide/getting-started
+#
+name: Deploy VitePress site to Pages
 
 on:
-  workflow_dispatch:
+  # Runs on pushes targeting the default branch
   push:
-    branches:
-      - main
-    paths:
-      - docs/**
-      - package.json
+    branches: [main]
 
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+env:
+  # Directory where your VitePress site is
+  VP_ROOT: docs
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
+# Allow one concurrent deployment
 concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  group: pages
+  cancel-in-progress: true
 
 jobs:
+  # Build job
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [ 22.x ]
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
+      - name: Detect package manager
+        run: echo "PM=$(jq -r '.packageManager // "npm"' package.json | cut -d '@' -f 1)" >> $GITHUB_ENV
+      - name: Install pnpm
+        if: env.PM == 'pnpm'
+        uses: pnpm/action-setup@v5
+      - name: Setup Node
+        uses: actions/setup-node@v6.3.0
         with:
-          fetch-depth: 0
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
+          node-version: lts/*
+          cache: ${{ env.PM }}
       - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
-      - name: Use pnpm
-        run: npm i -g pnpm
-      - name: Prepare Dependency
-        run: pnpm i
-      - name: Build with vue.js
-        run: pnpm run docs:build
+        uses: actions/configure-pages@v6
+      - name: Install dependencies
+        run: ${{ env.PM }} ${{ env.PM == 'npm' && 'ci' || 'install --frozen-lockfile' }}
+      - name: Build site using VitePress
+        run: ${{ env.PM == 'npm' && 'npx --no-install' || env.PM }} vitepress build ${{ env.VP_ROOT }} --base /${{ github.event.repository.name }}/
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
-          path: ./docs/.vitepress/dist
+          path: ${{ env.VP_ROOT }}/.vitepress/dist
 
+  # Deployment job
   deploy:
     environment:
       name: github-pages
@@ -56,4 +65,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

@@ -13,7 +13,8 @@ export default {
     app.component('ShikiMagicMove', ShikiMagicMove)
     app.component('MagicCodeGroup', MagicCodeGroup)
 
-    let urlPartSize = window.location.href.split('/').length
-    if (urlPartSize <= 1 || urlPartSize == 3 || (urlPartSize == 4 && !urlPartSize[3])) router.go('/zhCN').then()
+    let urlParts = window.location.href.split('/');
+    let urlPartsSize = urlParts.length
+    if (urlPartsSize <= 1 || urlPartsSize == 3 || (urlPartsSize == 4 && !urlPartsSize[3])) router.go('/zhCN').then()
   },
 } satisfies Theme

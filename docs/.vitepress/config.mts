@@ -82,7 +82,7 @@ function scanDirectory(dirPath: string, basePath: string, lang: string = 'zhCN')
     // 处理markdown文件
     files.forEach(file => {
         const filePath = path.join(dirPath, file)
-        const linkPath = path.join(basePath, file.replace('.md', ''))
+        const linkPath = path.posix.join(basePath, file.replace('.md', ''))
 
         items.push({
             text: getSidebar(filePath),
@@ -137,9 +137,6 @@ function scanDirectory(dirPath: string, basePath: string, lang: string = 'zhCN')
  */
 function getAutoConfig(lang: string = 'zhCN') {
     const nav: any[] = [];
-    nav.push({
-        component: 'fullres',
-    })
     nav.push({text: texts[lang].home, link: `/${lang}/`})
     const sidebar: any = {}
 
@@ -176,7 +173,7 @@ function getAutoConfig(lang: string = 'zhCN') {
 
     const editLink = {
         text: texts[lang].edit,
-        pattern: 'https://github.com/QiuShui1012/qiushui1012.github.io/edit/main/src/:path'
+        pattern: 'https://github.com/QiuShui1012/qiushui1012.github.io/edit/main/docs/:path'
     }
 
     const socialLinks = [
