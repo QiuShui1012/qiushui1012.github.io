@@ -6,7 +6,7 @@ hero:
   text: 秋水的个人网页
   tagline: Minecraft模组开发者
   image:
-    src: /static/logo.svg
+    src: /logo.svg
     alt: 头像
   actions:
     - theme: brand

@@ -199,7 +199,10 @@ export default defineConfig({
     title: "QiuShui1012's Website",
     description: "秋水的个人网页",
     lastUpdated: true,
-    head: [['link', {rel: 'icon', href: '/static/favicon.ico'}]],
+    head: [['link', {rel: 'icon', href: '/favicon.ico'}]],
+    vite: {
+        publicDir: 'static'
+    },
     themeConfig: {
         ...getAutoConfig(),
         search: {

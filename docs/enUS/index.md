@@ -5,7 +5,7 @@ hero:
   name: QiuShui's Website
   tagline: Minecraft Mods Developer
   image:
-    src: /static/logo.svg
+    src: /logo.svg
     alt: Logo
   actions:
     - theme: brand
