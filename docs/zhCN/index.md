@@ -11,10 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 模组文档
-      link: /docs/
-    - theme: brand
-      text: 个人博客
-      link: /blogs/
+      link: ./docs/
     - theme: alt
       text: Github
       link: https://github.com/QiuShui1012/
@@ -25,10 +22,12 @@ hero:
 features:
   - title: Qualia Carpet Addition
     details: 一个Carpet附属，添加了一些比较懒狗的功能。
-    link: /docs/qca-rules
+    link: ./docs/qca-rules
   - title: MultiYggdrasil
     details: 一个允许用户提供多个Yggdrasil API源的模组
-    link: /docs/multiyggdrasil
-  - title: Placeholder
+    link: ./docs/multiyggdrasil
+  - title: No Infinite Effects in HUD
+    details: 一个可以禁用状态效果的模组
+    link: ./docs/nieih
 ---
 

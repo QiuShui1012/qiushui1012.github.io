@@ -1,6 +1,7 @@
 ---
 title: Qualia Carpet Addition - Limitations
 description: Limitation predicate used in crafterLimitation and easyHopperLimitation rules.
+order: 2
 ---
 
 # Qualia Carpet Addition - Limitations

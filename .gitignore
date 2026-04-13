@@ -6,4 +6,5 @@ node_modules/
 package-lock.json
 
 # VitePress
-.vitepress/
+.vitepress/cache/
+docs/.vitepress/cache/

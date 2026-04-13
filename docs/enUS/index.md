@@ -10,10 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Documents
-      link: /docs/
-    - theme: brand
-      text: Blogs
-      link: /blogs/
+      link: ./docs/
     - theme: alt
       text: Github
       link: https://github.com/QiuShui1012/
@@ -24,10 +21,12 @@ hero:
 features:
   - title: Qualia Carpet Addition
     details: A simple carpet addon, added some lazier features.
-    link: /en/docs/qca-rules
+    link: ./docs/qca-rules
   - title: MultiYggdrasil
     details: A mod that can provide multiple Yggdrasil API sources.
-    link: /en/docs/multiyggdrasil
-  - title: Placeholder
+    link: ./docs/multiyggdrasil
+  - title: No Infinite Effects in HUD
+    details: A mod that can disables infinite effects display in the hud
+    link: ./docs/nieih
 ---
 

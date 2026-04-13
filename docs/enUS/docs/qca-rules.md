@@ -1,6 +1,7 @@
 ---
 title: Qualia Carpet Addition - Rules
 description: All rules in Qualia Carpet Addition
+order: 1
 ---
 
 # Qualia Carpet Addition - Rules

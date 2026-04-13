@@ -1,6 +1,7 @@
 ---
 title: Qualia Carpet Addition - 限制谓词
 description: 用于 crafterLimitation 和 easyHopperLimitation 规则的限制谓词
+order: 2
 ---
 
 # Qualia Carpet Addition - 限制谓词
